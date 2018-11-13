@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0477199821991BF30048CBB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477199721991BF30048CBB1 /* AppDelegate.m */; };
-		0477199B21991BF30048CBB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477199A21991BF30048CBB1 /* ViewController.m */; };
-		0477199E21991BF30048CBB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477199C21991BF30048CBB1 /* Main.storyboard */; };
 		047719A021991C040048CBB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0477199F21991C040048CBB1 /* Assets.xcassets */; };
-		047719A321991C040048CBB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047719A121991C040048CBB1 /* LaunchScreen.storyboard */; };
 		047719A621991C040048CBB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047719A521991C040048CBB1 /* main.m */; };
 		047719B021991C050048CBB1 /* ChatXMPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047719AF21991C050048CBB1 /* ChatXMPPTests.m */; };
 		047719BB21991C050048CBB1 /* ChatXMPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047719BA21991C050048CBB1 /* ChatXMPPUITests.m */; };
+		047719FC219927310048CBB1 /* MessageImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047719FB219927310048CBB1 /* MessageImages.xcassets */; };
+		047719FE2199278B0048CBB1 /* ContactImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047719FD2199278B0048CBB1 /* ContactImages.xcassets */; };
+		04771A00219927CA0048CBB1 /* MeImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047719FF219927CA0048CBB1 /* MeImages.xcassets */; };
+		04771A0321992DD20048CBB1 /* CXPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A0221992DD20048CBB1 /* CXPLoginViewController.m */; };
+		04771A1F21992EAC0048CBB1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04771A0521992EAC0048CBB1 /* Info.plist */; };
+		04771A2021992EAC0048CBB1 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A0721992EAC0048CBB1 /* MASCompositeConstraint.m */; };
+		04771A2121992EAC0048CBB1 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A0A21992EAC0048CBB1 /* MASConstraint.m */; };
+		04771A2221992EAC0048CBB1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A0C21992EAC0048CBB1 /* MASConstraintMaker.m */; };
+		04771A2321992EAC0048CBB1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A0E21992EAC0048CBB1 /* MASLayoutConstraint.m */; };
+		04771A2421992EAC0048CBB1 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A1221992EAC0048CBB1 /* MASViewAttribute.m */; };
+		04771A2521992EAC0048CBB1 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A1421992EAC0048CBB1 /* MASViewConstraint.m */; };
+		04771A2621992EAC0048CBB1 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A1621992EAC0048CBB1 /* NSArray+MASAdditions.m */; };
+		04771A2721992EAC0048CBB1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A1921992EAC0048CBB1 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		04771A2821992EAC0048CBB1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A1B21992EAC0048CBB1 /* View+MASAdditions.m */; };
+		04771A2921992EAC0048CBB1 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A1E21992EAC0048CBB1 /* ViewController+MASAdditions.m */; };
+		04771A2C219930AF0048CBB1 /* CXPCommonUITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A2B219930AF0048CBB1 /* CXPCommonUITool.m */; };
+		04771A3021997AA00048CBB1 /* CXPRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A2F21997AA00048CBB1 /* CXPRegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +52,7 @@
 		0477199321991BF30048CBB1 /* ChatXMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatXMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0477199621991BF30048CBB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0477199721991BF30048CBB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0477199921991BF30048CBB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0477199A21991BF30048CBB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0477199D21991BF30048CBB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0477199F21991C040048CBB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		047719A221991C040048CBB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047719A421991C040048CBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047719A521991C040048CBB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		047719AB21991C050048CBB1 /* ChatXMPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatXMPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +61,42 @@
 		047719B621991C050048CBB1 /* ChatXMPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatXMPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047719BA21991C050048CBB1 /* ChatXMPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatXMPPUITests.m; sourceTree = "<group>"; };
 		047719BC21991C050048CBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047719FB219927310048CBB1 /* MessageImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MessageImages.xcassets; sourceTree = "<group>"; };
+		047719FD2199278B0048CBB1 /* ContactImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ContactImages.xcassets; sourceTree = "<group>"; };
+		047719FF219927CA0048CBB1 /* MeImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MeImages.xcassets; sourceTree = "<group>"; };
+		04771A0121992DD20048CBB1 /* CXPLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPLoginViewController.h; sourceTree = "<group>"; };
+		04771A0221992DD20048CBB1 /* CXPLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPLoginViewController.m; sourceTree = "<group>"; };
+		04771A0521992EAC0048CBB1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04771A0621992EAC0048CBB1 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		04771A0721992EAC0048CBB1 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		04771A0821992EAC0048CBB1 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		04771A0921992EAC0048CBB1 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		04771A0A21992EAC0048CBB1 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		04771A0B21992EAC0048CBB1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		04771A0C21992EAC0048CBB1 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		04771A0D21992EAC0048CBB1 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		04771A0E21992EAC0048CBB1 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		04771A0F21992EAC0048CBB1 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		04771A1021992EAC0048CBB1 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		04771A1121992EAC0048CBB1 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		04771A1221992EAC0048CBB1 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		04771A1321992EAC0048CBB1 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		04771A1421992EAC0048CBB1 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		04771A1521992EAC0048CBB1 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		04771A1621992EAC0048CBB1 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		04771A1721992EAC0048CBB1 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		04771A1821992EAC0048CBB1 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		04771A1921992EAC0048CBB1 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		04771A1A21992EAC0048CBB1 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		04771A1B21992EAC0048CBB1 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		04771A1C21992EAC0048CBB1 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		04771A1D21992EAC0048CBB1 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		04771A1E21992EAC0048CBB1 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		04771A2A219930AF0048CBB1 /* CXPCommonUITool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPCommonUITool.h; sourceTree = "<group>"; };
+		04771A2B219930AF0048CBB1 /* CXPCommonUITool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPCommonUITool.m; sourceTree = "<group>"; };
+		04771A2D219949BD0048CBB1 /* ChatXMPPPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatXMPPPrefixHeader.pch; sourceTree = "<group>"; };
+		04771A2E21997AA00048CBB1 /* CXPRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPRegisterViewController.h; sourceTree = "<group>"; };
+		04771A2F21997AA00048CBB1 /* CXPRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPRegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +147,9 @@
 		0477199521991BF30048CBB1 /* ChatXMPP */ = {
 			isa = PBXGroup;
 			children = (
-				0477199621991BF30048CBB1 /* AppDelegate.h */,
-				0477199721991BF30048CBB1 /* AppDelegate.m */,
-				0477199921991BF30048CBB1 /* ViewController.h */,
-				0477199A21991BF30048CBB1 /* ViewController.m */,
-				0477199C21991BF30048CBB1 /* Main.storyboard */,
-				0477199F21991C040048CBB1 /* Assets.xcassets */,
-				047719A121991C040048CBB1 /* LaunchScreen.storyboard */,
 				047719A421991C040048CBB1 /* Info.plist */,
-				047719A521991C040048CBB1 /* main.m */,
+				047719D7219920CE0048CBB1 /* classes */,
+				0477199F21991C040048CBB1 /* Assets.xcassets */,
 			);
 			path = ChatXMPP;
 			sourceTree = "<group>";
@@ -130,6 +170,220 @@
 				047719BC21991C050048CBB1 /* Info.plist */,
 			);
 			path = ChatXMPPUITests;
+			sourceTree = "<group>";
+		};
+		047719D7219920CE0048CBB1 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				047719D8219920CE0048CBB1 /* Contacts */,
+				047719DC219920CE0048CBB1 /* Libs */,
+				047719DD219920CE0048CBB1 /* LoginAndRegister */,
+				047719E1219920CE0048CBB1 /* Main */,
+				047719E2219920CE0048CBB1 /* Me */,
+				047719E6219920CE0048CBB1 /* Messages */,
+				047719EA219920CE0048CBB1 /* Resources */,
+				047719EB219920CE0048CBB1 /* Utils */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		047719D8219920CE0048CBB1 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				047719D9219920CE0048CBB1 /* Controllers */,
+				047719DA219920CE0048CBB1 /* Models */,
+				047719DB219920CE0048CBB1 /* Views */,
+				047719FD2199278B0048CBB1 /* ContactImages.xcassets */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		047719D9219920CE0048CBB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		047719DA219920CE0048CBB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		047719DB219920CE0048CBB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		047719DC219920CE0048CBB1 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				04771A0421992EAC0048CBB1 /* Masonry */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		047719DD219920CE0048CBB1 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				047719DE219920CE0048CBB1 /* Controllers */,
+				047719DF219920CE0048CBB1 /* Models */,
+				047719E0219920CE0048CBB1 /* Views */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		047719DE219920CE0048CBB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04771A0121992DD20048CBB1 /* CXPLoginViewController.h */,
+				04771A0221992DD20048CBB1 /* CXPLoginViewController.m */,
+				04771A2E21997AA00048CBB1 /* CXPRegisterViewController.h */,
+				04771A2F21997AA00048CBB1 /* CXPRegisterViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		047719DF219920CE0048CBB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		047719E0219920CE0048CBB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		047719E1219920CE0048CBB1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0477199621991BF30048CBB1 /* AppDelegate.h */,
+				0477199721991BF30048CBB1 /* AppDelegate.m */,
+				047719A521991C040048CBB1 /* main.m */,
+				04771A2D219949BD0048CBB1 /* ChatXMPPPrefixHeader.pch */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		047719E2219920CE0048CBB1 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				047719E3219920CE0048CBB1 /* Controllers */,
+				047719E4219920CE0048CBB1 /* Models */,
+				047719E5219920CE0048CBB1 /* Views */,
+				047719FF219927CA0048CBB1 /* MeImages.xcassets */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		047719E3219920CE0048CBB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		047719E4219920CE0048CBB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		047719E5219920CE0048CBB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		047719E6219920CE0048CBB1 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				047719FB219927310048CBB1 /* MessageImages.xcassets */,
+				047719E7219920CE0048CBB1 /* Controllers */,
+				047719E8219920CE0048CBB1 /* Models */,
+				047719E9219920CE0048CBB1 /* Views */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		047719E7219920CE0048CBB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		047719E8219920CE0048CBB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		047719E9219920CE0048CBB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		047719EA219920CE0048CBB1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		047719EB219920CE0048CBB1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04771A2A219930AF0048CBB1 /* CXPCommonUITool.h */,
+				04771A2B219930AF0048CBB1 /* CXPCommonUITool.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		04771A0421992EAC0048CBB1 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				04771A0521992EAC0048CBB1 /* Info.plist */,
+				04771A0621992EAC0048CBB1 /* MASCompositeConstraint.h */,
+				04771A0721992EAC0048CBB1 /* MASCompositeConstraint.m */,
+				04771A0821992EAC0048CBB1 /* MASConstraint+Private.h */,
+				04771A0921992EAC0048CBB1 /* MASConstraint.h */,
+				04771A0A21992EAC0048CBB1 /* MASConstraint.m */,
+				04771A0B21992EAC0048CBB1 /* MASConstraintMaker.h */,
+				04771A0C21992EAC0048CBB1 /* MASConstraintMaker.m */,
+				04771A0D21992EAC0048CBB1 /* MASLayoutConstraint.h */,
+				04771A0E21992EAC0048CBB1 /* MASLayoutConstraint.m */,
+				04771A0F21992EAC0048CBB1 /* Masonry.h */,
+				04771A1021992EAC0048CBB1 /* MASUtilities.h */,
+				04771A1121992EAC0048CBB1 /* MASViewAttribute.h */,
+				04771A1221992EAC0048CBB1 /* MASViewAttribute.m */,
+				04771A1321992EAC0048CBB1 /* MASViewConstraint.h */,
+				04771A1421992EAC0048CBB1 /* MASViewConstraint.m */,
+				04771A1521992EAC0048CBB1 /* NSArray+MASAdditions.h */,
+				04771A1621992EAC0048CBB1 /* NSArray+MASAdditions.m */,
+				04771A1721992EAC0048CBB1 /* NSArray+MASShorthandAdditions.h */,
+				04771A1821992EAC0048CBB1 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				04771A1921992EAC0048CBB1 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				04771A1A21992EAC0048CBB1 /* View+MASAdditions.h */,
+				04771A1B21992EAC0048CBB1 /* View+MASAdditions.m */,
+				04771A1C21992EAC0048CBB1 /* View+MASShorthandAdditions.h */,
+				04771A1D21992EAC0048CBB1 /* ViewController+MASAdditions.h */,
+				04771A1E21992EAC0048CBB1 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +489,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047719A321991C040048CBB1 /* LaunchScreen.storyboard in Resources */,
+				047719FE2199278B0048CBB1 /* ContactImages.xcassets in Resources */,
+				04771A1F21992EAC0048CBB1 /* Info.plist in Resources */,
 				047719A021991C040048CBB1 /* Assets.xcassets in Resources */,
-				0477199E21991BF30048CBB1 /* Main.storyboard in Resources */,
+				04771A00219927CA0048CBB1 /* MeImages.xcassets in Resources */,
+				047719FC219927310048CBB1 /* MessageImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +518,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0477199B21991BF30048CBB1 /* ViewController.m in Sources */,
+				04771A2721992EAC0048CBB1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				04771A2521992EAC0048CBB1 /* MASViewConstraint.m in Sources */,
+				04771A2021992EAC0048CBB1 /* MASCompositeConstraint.m in Sources */,
+				04771A2621992EAC0048CBB1 /* NSArray+MASAdditions.m in Sources */,
+				04771A2C219930AF0048CBB1 /* CXPCommonUITool.m in Sources */,
+				04771A0321992DD20048CBB1 /* CXPLoginViewController.m in Sources */,
 				047719A621991C040048CBB1 /* main.m in Sources */,
+				04771A3021997AA00048CBB1 /* CXPRegisterViewController.m in Sources */,
+				04771A2321992EAC0048CBB1 /* MASLayoutConstraint.m in Sources */,
 				0477199821991BF30048CBB1 /* AppDelegate.m in Sources */,
+				04771A2921992EAC0048CBB1 /* ViewController+MASAdditions.m in Sources */,
+				04771A2821992EAC0048CBB1 /* View+MASAdditions.m in Sources */,
+				04771A2421992EAC0048CBB1 /* MASViewAttribute.m in Sources */,
+				04771A2121992EAC0048CBB1 /* MASConstraint.m in Sources */,
+				04771A2221992EAC0048CBB1 /* MASConstraintMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +566,6 @@
 			targetProxy = 047719B721991C050048CBB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0477199C21991BF30048CBB1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0477199D21991BF30048CBB1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		047719A121991C040048CBB1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				047719A221991C040048CBB1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		047719BD21991C050048CBB1 /* Debug */ = {
@@ -433,8 +682,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/xiangjune/Desktop/工作文件/Demo/ChatXMPP/ChatXMPP/classes/Main/ChatXMPPPrefixHeader.pch";
 				INFOPLIST_FILE = ChatXMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,8 +701,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/xiangjune/Desktop/工作文件/Demo/ChatXMPP/ChatXMPP/classes/Main/ChatXMPPPrefixHeader.pch";
 				INFOPLIST_FILE = ChatXMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
