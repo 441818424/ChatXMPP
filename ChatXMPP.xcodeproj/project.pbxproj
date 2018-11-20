@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045DB88B21A3F9620068E881 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DB88A21A3F9600068E881 /* MBProgressHUD.m */; };
+		045DB88E21A3FAB00068E881 /* MBProgressHUD+CXPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DB88D21A3FAB00068E881 /* MBProgressHUD+CXPHUD.m */; };
 		0477199821991BF30048CBB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477199721991BF30048CBB1 /* AppDelegate.m */; };
 		047719A021991C040048CBB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0477199F21991C040048CBB1 /* Assets.xcassets */; };
 		047719A621991C040048CBB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047719A521991C040048CBB1 /* main.m */; };
@@ -16,7 +18,6 @@
 		047719FE2199278B0048CBB1 /* ContactImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047719FD2199278B0048CBB1 /* ContactImages.xcassets */; };
 		04771A00219927CA0048CBB1 /* MeImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047719FF219927CA0048CBB1 /* MeImages.xcassets */; };
 		04771A0321992DD20048CBB1 /* CXPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A0221992DD20048CBB1 /* CXPLoginViewController.m */; };
-		04771A1F21992EAC0048CBB1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04771A0521992EAC0048CBB1 /* Info.plist */; };
 		04771A2021992EAC0048CBB1 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A0721992EAC0048CBB1 /* MASCompositeConstraint.m */; };
 		04771A2121992EAC0048CBB1 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A0A21992EAC0048CBB1 /* MASConstraint.m */; };
 		04771A2221992EAC0048CBB1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A0C21992EAC0048CBB1 /* MASConstraintMaker.m */; };
@@ -39,7 +40,6 @@
 		04C7AB24219AA8810097AC93 /* NSData+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A9A2219AA8800097AC93 /* NSData+XMPP.m */; };
 		04C7AB25219AA8810097AC93 /* NSNumber+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A9A4219AA8800097AC93 /* NSNumber+XMPP.m */; };
 		04C7AB26219AA8810097AC93 /* NSXMLElement+XMPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A9A6219AA8800097AC93 /* NSXMLElement+XMPP.m */; };
-		04C7AB27219AA8810097AC93 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04C7A9A8219AA8800097AC93 /* Info.plist */; };
 		04C7AB28219AA8810097AC93 /* XMPPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A9AB219AA8800097AC93 /* XMPPConstants.m */; };
 		04C7AB29219AA8810097AC93 /* XMPPElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A9AD219AA8800097AC93 /* XMPPElement.m */; };
 		04C7AB2A219AA8810097AC93 /* XMPPIQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A9B1219AA8800097AC93 /* XMPPIQ.m */; };
@@ -195,7 +195,6 @@
 		04C7AC04219AB1500097AC93 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7ABE1219AB14F0097AC93 /* DDXMLDocument.m */; };
 		04C7AC05219AB1500097AC93 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7ABE3219AB14F0097AC93 /* DDXMLElement.m */; };
 		04C7AC06219AB1500097AC93 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7ABE5219AB14F0097AC93 /* DDXMLNode.m */; };
-		04C7AC07219AB1500097AC93 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04C7ABE6219AB14F0097AC93 /* Info.plist */; };
 		04C7AC08219AB1500097AC93 /* nfkc.c in Sources */ = {isa = PBXBuildFile; fileRef = 04C7ABEE219AB14F0097AC93 /* nfkc.c */; };
 		04C7AC09219AB1500097AC93 /* NSString+IDN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7ABF0219AB14F0097AC93 /* NSString+IDN.m */; };
 		04C7AC0A219AB1500097AC93 /* profiles.c in Sources */ = {isa = PBXBuildFile; fileRef = 04C7ABF1219AB14F0097AC93 /* profiles.c */; };
@@ -242,6 +241,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045DB88921A3F9600068E881 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		045DB88A21A3F9600068E881 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		045DB88C21A3FAB00068E881 /* MBProgressHUD+CXPHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+CXPHUD.h"; sourceTree = "<group>"; };
+		045DB88D21A3FAB00068E881 /* MBProgressHUD+CXPHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+CXPHUD.m"; sourceTree = "<group>"; };
 		0477199321991BF30048CBB1 /* ChatXMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatXMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0477199621991BF30048CBB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0477199721991BF30048CBB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -723,6 +726,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045DB88821A3F9600068E881 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				045DB88921A3F9600068E881 /* MBProgressHUD.h */,
+				045DB88A21A3F9600068E881 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		0477198A21991BF30048CBB1 = {
 			isa = PBXGroup;
 			children = (
@@ -823,6 +835,7 @@
 		047719DC219920CE0048CBB1 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				045DB88821A3F9600068E881 /* MBProgressHUD */,
 				04C7A987219AA8800097AC93 /* XMPPFramework */,
 				04C7AC6F219AC2E70097AC93 /* XMPPFramework.h */,
 				04771A0421992EAC0048CBB1 /* Masonry */,
@@ -952,6 +965,8 @@
 			children = (
 				04771A2A219930AF0048CBB1 /* CXPCommonUITool.h */,
 				04771A2B219930AF0048CBB1 /* CXPCommonUITool.m */,
+				045DB88C21A3FAB00068E881 /* MBProgressHUD+CXPHUD.h */,
+				045DB88D21A3FAB00068E881 /* MBProgressHUD+CXPHUD.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -2191,10 +2206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C7AC07219AB1500097AC93 /* Info.plist in Resources */,
 				047719FE2199278B0048CBB1 /* ContactImages.xcassets in Resources */,
-				04771A1F21992EAC0048CBB1 /* Info.plist in Resources */,
-				04C7AB27219AA8810097AC93 /* Info.plist in Resources */,
 				047719A021991C040048CBB1 /* Assets.xcassets in Resources */,
 				04771A00219927CA0048CBB1 /* MeImages.xcassets in Resources */,
 				047719FC219927310048CBB1 /* MessageImages.xcassets in Resources */,
@@ -2338,6 +2350,7 @@
 				04C7AB82219AA8810097AC93 /* XMPPCapsResourceCoreDataStorageObject.m in Sources */,
 				04C7AC09219AB1500097AC93 /* NSString+IDN.m in Sources */,
 				04C7AB3D219AA8810097AC93 /* XMPPIQ+OMEMO.m in Sources */,
+				045DB88E21A3FAB00068E881 /* MBProgressHUD+CXPHUD.m in Sources */,
 				04C7AB91219AA8810097AC93 /* XMPPStreamManagementMemoryStorage.m in Sources */,
 				04C7ABB5219AA8810097AC93 /* DDList.m in Sources */,
 				04C7AB7B219AA8810097AC93 /* XMPPMessage+XEP_0085.m in Sources */,
@@ -2389,6 +2402,7 @@
 				04C7AB42219AA8810097AC93 /* XMPPGroupCoreDataStorageObject.m in Sources */,
 				04C7AB3B219AA8810097AC93 /* OMEMOPreKey.m in Sources */,
 				04C7AB94219AA8810097AC93 /* XMPPAutoPing.m in Sources */,
+				045DB88B21A3F9620068E881 /* MBProgressHUD.m in Sources */,
 				04C7AB5A219AA8810097AC93 /* XMPPRoomMemoryStorage.m in Sources */,
 				04C7ABBB219AA8810097AC93 /* XMPPTimer.m in Sources */,
 				04C7AB24219AA8810097AC93 /* NSData+XMPP.m in Sources */,
@@ -2572,6 +2586,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU4NY3S79J;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "/Users/xiangjune/Desktop/工作文件/Demo/ChatXMPP/ChatXMPP/classes/Main/ChatXMPPPrefixHeader.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = ChatXMPP/Info.plist;
@@ -2592,6 +2608,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU4NY3S79J;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "/Users/xiangjune/Desktop/工作文件/Demo/ChatXMPP/ChatXMPP/classes/Main/ChatXMPPPrefixHeader.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = ChatXMPP/Info.plist;

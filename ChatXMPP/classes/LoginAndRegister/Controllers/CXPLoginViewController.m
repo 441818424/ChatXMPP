@@ -8,6 +8,7 @@
 
 #import "CXPLoginViewController.h"
 #import "CXPRegisterViewController.h"
+#import "CXPXMPPManager.h"
 
 @interface CXPLoginViewController ()
 
@@ -97,7 +98,11 @@
 
 - (void)loginAction
 {
-    
+    [[CXPXMPPManager sharedXMPPManager] loginWithUserName:_userNameTextField.text password:_passwordTextField.text successHandle:^{
+        NSLog(@"登录成功");
+    } failureHandle:^(NSError *error) {
+        NSLog(@"登录失败");
+    }];
     
 }
 - (void)jumpRegister

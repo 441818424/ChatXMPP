@@ -9,14 +9,16 @@
 #import <Foundation/Foundation.h>
 #import "XMPPFramework.h"
 
+typedef void(^SuccessBlock)(void);
+typedef void(^FailureBlock)(NSError *error);
+
 @interface CXPXMPPManager : NSObject
-
-
-
-
-
-
-
-
++ (instancetype)sharedXMPPManager;
+//登录
+- (void)loginWithUserName:(NSString *)userName password:(NSString *)password successHandle:(SuccessBlock)successHandle failureHandle:(FailureBlock)failureHandle;
+//注册
+- (void)registerWithUserName:(NSString *)userName password:(NSString *)password successHandle:(SuccessBlock)successHandle failureHandle:(FailureBlock)failureHandle;
+//登出
+- (void)logout;
 
 @end

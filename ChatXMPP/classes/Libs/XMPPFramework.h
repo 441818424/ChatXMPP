@@ -40,3 +40,6 @@
 
 #import <XMPPFramework/XMPPMUC.h>
 #import <XMPPFramework/XMPPRoomCoreDataStorage.h>
+
+
+#end

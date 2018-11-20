@@ -7,6 +7,8 @@
 //
 
 #import "CXPRegisterViewController.h"
+#import "CXPXMPPManager.h"
+
 
 @interface CXPRegisterViewController ()
 
@@ -92,7 +94,12 @@
 
 - (void)registerAction
 {
-    
+    [[CXPXMPPManager sharedXMPPManager] registerWithUserName:_userNameTextField.text password:_passwordTextField.text successHandle:^{
+        NSLog(@"注册成功");
+    } failureHandle:^(NSError *error) {
+
+        NSLog(@"注册失败");
+    }];
     
 }
 
