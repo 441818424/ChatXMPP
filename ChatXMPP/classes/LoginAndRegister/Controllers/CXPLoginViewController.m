@@ -9,6 +9,7 @@
 #import "CXPLoginViewController.h"
 #import "CXPRegisterViewController.h"
 #import "CXPXMPPManager.h"
+#import "CXPBaseTabbarController.h"
 
 @interface CXPLoginViewController ()
 
@@ -100,7 +101,10 @@
 {
     [[CXPXMPPManager sharedXMPPManager] loginWithUserName:_userNameTextField.text password:_passwordTextField.text successHandle:^{
         NSLog(@"登录成功");
+        CXPBaseTabbarController *baseVC = [[CXPBaseTabbarController alloc] init];
+        [UIApplication sharedApplication].delegate.window.rootViewController = baseVC;
     } failureHandle:^(NSError *error) {
+        [MBProgressHUD showError:@"登录失败"];
         NSLog(@"登录失败");
     }];
     

@@ -11,8 +11,13 @@
 
 typedef void(^SuccessBlock)(void);
 typedef void(^FailureBlock)(NSError *error);
+#define DOMAINNAME @"local.host"
+#define RESOURCE @"iOS"
 
 @interface CXPXMPPManager : NSObject
+/** <#注释#> */
+@property (nonatomic,strong) XMPPRoster *xmppRoster;
+
 + (instancetype)sharedXMPPManager;
 //登录
 - (void)loginWithUserName:(NSString *)userName password:(NSString *)password successHandle:(SuccessBlock)successHandle failureHandle:(FailureBlock)failureHandle;

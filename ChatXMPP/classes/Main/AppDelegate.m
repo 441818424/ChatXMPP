@@ -23,6 +23,7 @@
     self.window.rootViewController = naviVC;
     [self.window makeKeyAndVisible];
     return YES;
+
 }
 
 

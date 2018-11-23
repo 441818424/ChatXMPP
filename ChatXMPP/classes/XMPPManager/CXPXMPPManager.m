@@ -11,15 +11,13 @@ typedef NS_ENUM(NSUInteger,CXPConnectType) {
     CXPConnectTypeLogin,
     CXPConnectTypeRegister
 };
-#define DOMAINNAME @"local.host"
-#define RESOURCE @"iOS"
+
 @interface CXPXMPPManager()<XMPPStreamDelegate,XMPPRosterDelegate>
 /** <#注释#> */
 @property (nonatomic,strong) XMPPStream *xmppStream;
 /** <#注释#> */
 @property (nonatomic,strong) XMPPReconnect *xmppReconnect;
-/** <#注释#> */
-@property (nonatomic,strong) XMPPRoster *xmppRoster;
+
 /** <#注释#> */
 @property (nonatomic,strong) XMPPRosterCoreDataStorage *xmppRosterStorage;
 /** <#注释#> */

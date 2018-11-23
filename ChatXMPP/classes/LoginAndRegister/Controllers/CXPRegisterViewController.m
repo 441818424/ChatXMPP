@@ -96,8 +96,10 @@
 {
     [[CXPXMPPManager sharedXMPPManager] registerWithUserName:_userNameTextField.text password:_passwordTextField.text successHandle:^{
         NSLog(@"注册成功");
+        [MBProgressHUD showSuccess:@"注册成功，请登录"];
+        [self.navigationController popViewControllerAnimated:YES];
     } failureHandle:^(NSError *error) {
-
+        [MBProgressHUD showError:@"注册失败"];
         NSLog(@"注册失败");
     }];
     

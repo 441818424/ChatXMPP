@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043A410521A4FC7F00C5BA40 /* CXPBaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A410421A4FC7F00C5BA40 /* CXPBaseTabbarController.m */; };
+		043A410821A4FE2400C5BA40 /* CXPContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A410721A4FE2400C5BA40 /* CXPContactsViewController.m */; };
+		043A410B21A4FE3C00C5BA40 /* CXPMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A410A21A4FE3C00C5BA40 /* CXPMessageViewController.m */; };
+		043A410E21A4FE4E00C5BA40 /* CXPMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A410D21A4FE4E00C5BA40 /* CXPMeViewController.m */; };
 		045DB88B21A3F9620068E881 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DB88A21A3F9600068E881 /* MBProgressHUD.m */; };
 		045DB88E21A3FAB00068E881 /* MBProgressHUD+CXPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DB88D21A3FAB00068E881 /* MBProgressHUD+CXPHUD.m */; };
 		0477199821991BF30048CBB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477199721991BF30048CBB1 /* AppDelegate.m */; };
@@ -30,6 +34,10 @@
 		04771A2921992EAC0048CBB1 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A1E21992EAC0048CBB1 /* ViewController+MASAdditions.m */; };
 		04771A2C219930AF0048CBB1 /* CXPCommonUITool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A2B219930AF0048CBB1 /* CXPCommonUITool.m */; };
 		04771A3021997AA00048CBB1 /* CXPRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04771A2F21997AA00048CBB1 /* CXPRegisterViewController.m */; };
+		049104DF21A7D0490033E4A0 /* CXPXMPPFriendsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049104DE21A7D0490033E4A0 /* CXPXMPPFriendsManager.m */; };
+		049104E221A7E4620033E4A0 /* CXPFriendsRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049104E121A7E4620033E4A0 /* CXPFriendsRequestViewController.m */; };
+		049104EA21A7EC930033E4A0 /* CXPFriendRequestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049104E921A7EC930033E4A0 /* CXPFriendRequestCell.m */; };
+		04AFDE1D21A55FEC008C2183 /* CXPContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDE1C21A55FEB008C2183 /* CXPContactModel.m */; };
 		04C7AB1D219AA8810097AC93 /* XMPPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A98B219AA8800097AC93 /* XMPPAnonymousAuthentication.m */; };
 		04C7AB1E219AA8810097AC93 /* XMPPDeprecatedDigestAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A98E219AA8800097AC93 /* XMPPDeprecatedDigestAuthentication.m */; };
 		04C7AB1F219AA8810097AC93 /* XMPPDeprecatedPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7A991219AA8800097AC93 /* XMPPDeprecatedPlainAuthentication.m */; };
@@ -241,6 +249,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043A410321A4FC7F00C5BA40 /* CXPBaseTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPBaseTabbarController.h; sourceTree = "<group>"; };
+		043A410421A4FC7F00C5BA40 /* CXPBaseTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPBaseTabbarController.m; sourceTree = "<group>"; };
+		043A410621A4FE2400C5BA40 /* CXPContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPContactsViewController.h; sourceTree = "<group>"; };
+		043A410721A4FE2400C5BA40 /* CXPContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPContactsViewController.m; sourceTree = "<group>"; };
+		043A410921A4FE3C00C5BA40 /* CXPMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPMessageViewController.h; sourceTree = "<group>"; };
+		043A410A21A4FE3C00C5BA40 /* CXPMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPMessageViewController.m; sourceTree = "<group>"; };
+		043A410C21A4FE4E00C5BA40 /* CXPMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPMeViewController.h; sourceTree = "<group>"; };
+		043A410D21A4FE4E00C5BA40 /* CXPMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPMeViewController.m; sourceTree = "<group>"; };
 		045DB88921A3F9600068E881 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		045DB88A21A3F9600068E881 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		045DB88C21A3FAB00068E881 /* MBProgressHUD+CXPHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+CXPHUD.h"; sourceTree = "<group>"; };
@@ -293,6 +309,14 @@
 		04771A2D219949BD0048CBB1 /* ChatXMPPPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatXMPPPrefixHeader.pch; sourceTree = "<group>"; };
 		04771A2E21997AA00048CBB1 /* CXPRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPRegisterViewController.h; sourceTree = "<group>"; };
 		04771A2F21997AA00048CBB1 /* CXPRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPRegisterViewController.m; sourceTree = "<group>"; };
+		049104DD21A7D0490033E4A0 /* CXPXMPPFriendsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPXMPPFriendsManager.h; sourceTree = "<group>"; };
+		049104DE21A7D0490033E4A0 /* CXPXMPPFriendsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPXMPPFriendsManager.m; sourceTree = "<group>"; };
+		049104E021A7E4620033E4A0 /* CXPFriendsRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPFriendsRequestViewController.h; sourceTree = "<group>"; };
+		049104E121A7E4620033E4A0 /* CXPFriendsRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPFriendsRequestViewController.m; sourceTree = "<group>"; };
+		049104E821A7EC930033E4A0 /* CXPFriendRequestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPFriendRequestCell.h; sourceTree = "<group>"; };
+		049104E921A7EC930033E4A0 /* CXPFriendRequestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPFriendRequestCell.m; sourceTree = "<group>"; };
+		04AFDE1B21A55FEB008C2183 /* CXPContactModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPContactModel.h; sourceTree = "<group>"; };
+		04AFDE1C21A55FEB008C2183 /* CXPContactModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPContactModel.m; sourceTree = "<group>"; };
 		04C7A98A219AA8800097AC93 /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
 		04C7A98B219AA8800097AC93 /* XMPPAnonymousAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPAnonymousAuthentication.m; sourceTree = "<group>"; };
 		04C7A98D219AA8800097AC93 /* XMPPDeprecatedDigestAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDeprecatedDigestAuthentication.h; sourceTree = "<group>"; };
@@ -760,6 +784,7 @@
 			isa = PBXGroup;
 			children = (
 				047719A421991C040048CBB1 /* Info.plist */,
+				04771A2D219949BD0048CBB1 /* ChatXMPPPrefixHeader.pch */,
 				047719D7219920CE0048CBB1 /* classes */,
 				0477199F21991C040048CBB1 /* Assets.xcassets */,
 			);
@@ -814,6 +839,10 @@
 		047719D9219920CE0048CBB1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				043A410621A4FE2400C5BA40 /* CXPContactsViewController.h */,
+				043A410721A4FE2400C5BA40 /* CXPContactsViewController.m */,
+				049104E021A7E4620033E4A0 /* CXPFriendsRequestViewController.h */,
+				049104E121A7E4620033E4A0 /* CXPFriendsRequestViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -821,6 +850,8 @@
 		047719DA219920CE0048CBB1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				04AFDE1B21A55FEB008C2183 /* CXPContactModel.h */,
+				04AFDE1C21A55FEB008C2183 /* CXPContactModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -828,6 +859,8 @@
 		047719DB219920CE0048CBB1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				049104E821A7EC930033E4A0 /* CXPFriendRequestCell.h */,
+				049104E921A7EC930033E4A0 /* CXPFriendRequestCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -884,7 +917,8 @@
 				0477199621991BF30048CBB1 /* AppDelegate.h */,
 				0477199721991BF30048CBB1 /* AppDelegate.m */,
 				047719A521991C040048CBB1 /* main.m */,
-				04771A2D219949BD0048CBB1 /* ChatXMPPPrefixHeader.pch */,
+				043A410321A4FC7F00C5BA40 /* CXPBaseTabbarController.h */,
+				043A410421A4FC7F00C5BA40 /* CXPBaseTabbarController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -903,6 +937,8 @@
 		047719E3219920CE0048CBB1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				043A410C21A4FE4E00C5BA40 /* CXPMeViewController.h */,
+				043A410D21A4FE4E00C5BA40 /* CXPMeViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -935,6 +971,8 @@
 		047719E7219920CE0048CBB1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				043A410921A4FE3C00C5BA40 /* CXPMessageViewController.h */,
+				043A410A21A4FE3C00C5BA40 /* CXPMessageViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -2099,6 +2137,8 @@
 			children = (
 				04C7AC67219AC1460097AC93 /* CXPXMPPManager.h */,
 				04C7AC68219AC1460097AC93 /* CXPXMPPManager.m */,
+				049104DD21A7D0490033E4A0 /* CXPXMPPFriendsManager.h */,
+				049104DE21A7D0490033E4A0 /* CXPXMPPFriendsManager.m */,
 			);
 			path = XMPPManager;
 			sourceTree = "<group>";
@@ -2240,10 +2280,12 @@
 				04C7AC62219AB4F40097AC93 /* DDContextFilterLogFormatter.m in Sources */,
 				04771A2721992EAC0048CBB1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				04C7ABA3219AA8810097AC93 /* XMPPRoomLightCoreDataStorage+XEP_0313.m in Sources */,
+				04AFDE1D21A55FEC008C2183 /* CXPContactModel.m in Sources */,
 				04C7AB4A219AA8810097AC93 /* XMPPRoster.m in Sources */,
 				04C7AB28219AA8810097AC93 /* XMPPConstants.m in Sources */,
 				04C7ABA5219AA8810097AC93 /* XMPPMessage+XEP_0334.m in Sources */,
 				04C7AB45219AA8810097AC93 /* XMPPRosterCoreDataStorage.m in Sources */,
+				049104EA21A7EC930033E4A0 /* CXPFriendRequestCell.m in Sources */,
 				04C7AC57219AB4F40097AC93 /* CLIColor.m in Sources */,
 				04C7AB85219AA8810097AC93 /* XMPPMessageArchiving_Contact_CoreDataObject.m in Sources */,
 				04C7AB4E219AA8810097AC93 /* XMPPJabberRPCModule.m in Sources */,
@@ -2255,6 +2297,7 @@
 				04C7AB51219AA8810097AC93 /* XMPPPrivacy.m in Sources */,
 				04C7AB7D219AA8810097AC93 /* XMPPTransports.m in Sources */,
 				04C7AB99219AA8810097AC93 /* XMPPDelayedDelivery.m in Sources */,
+				043A410821A4FE2400C5BA40 /* CXPContactsViewController.m in Sources */,
 				04C7AB81219AA8810097AC93 /* XMPPCapsCoreDataStorageObject.m in Sources */,
 				04C7AB87219AA8810097AC93 /* XMPPMessageArchivingCoreDataStorage.m in Sources */,
 				04C7AB2F219AA8810097AC93 /* XMPPPresence.m in Sources */,
@@ -2303,6 +2346,7 @@
 				04C7ABA8219AA8810097AC93 /* XMPPIQ+XEP_0357.m in Sources */,
 				04C7AB4C219AA8810097AC93 /* XMPPIQ+JabberRPC.m in Sources */,
 				04C7AB3E219AA8810097AC93 /* XMPPMessage+OMEMO.m in Sources */,
+				049104DF21A7D0490033E4A0 /* CXPXMPPFriendsManager.m in Sources */,
 				047719A621991C040048CBB1 /* main.m in Sources */,
 				04771A3021997AA00048CBB1 /* CXPRegisterViewController.m in Sources */,
 				04C7AB69219AA8810097AC93 /* XMPPvCardTempAdr.m in Sources */,
@@ -2329,6 +2373,7 @@
 				04C7ABF8219AB1500097AC93 /* GCDAsyncUdpSocket.m in Sources */,
 				04C7AB26219AA8810097AC93 /* NSXMLElement+XMPP.m in Sources */,
 				04C7AB71219AA8810097AC93 /* XMPPResultSet.m in Sources */,
+				043A410B21A4FE3C00C5BA40 /* CXPMessageViewController.m in Sources */,
 				04C7AC69219AC1460097AC93 /* CXPXMPPManager.m in Sources */,
 				04C7ABAA219AA8810097AC93 /* NSXMLElement+XEP_0359.m in Sources */,
 				04C7AB5C219AA8810097AC93 /* XMPPRoomOccupantMemoryStorageObject.m in Sources */,
@@ -2346,6 +2391,7 @@
 				04C7AB33219AA8810097AC93 /* XMPPFileTransfer.m in Sources */,
 				04C7AB2D219AA8810097AC93 /* XMPPModule.m in Sources */,
 				04C7AB9F219AA8810097AC93 /* NSXMLElement+XEP_0297.m in Sources */,
+				043A410521A4FC7F00C5BA40 /* CXPBaseTabbarController.m in Sources */,
 				04C7AB2B219AA8810097AC93 /* XMPPJID.m in Sources */,
 				04C7AB82219AA8810097AC93 /* XMPPCapsResourceCoreDataStorageObject.m in Sources */,
 				04C7AC09219AB1500097AC93 /* NSString+IDN.m in Sources */,
@@ -2368,6 +2414,7 @@
 				04C7AB58219AA8810097AC93 /* XMPPRoomMessageHybridCoreDataStorageObject.m in Sources */,
 				04C7AB72219AA8810097AC93 /* XMPPIQ+XEP_0060.m in Sources */,
 				04C7AB7A219AA8810097AC93 /* XMPPDateTimeProfiles.m in Sources */,
+				049104E221A7E4620033E4A0 /* CXPFriendsRequestViewController.m in Sources */,
 				04C7AC05219AB1500097AC93 /* DDXMLElement.m in Sources */,
 				04C7AB93219AA8810097AC93 /* XMPPStreamManagement.m in Sources */,
 				04C7AB79219AA8810097AC93 /* NSDate+XMPPDateTimeProfiles.m in Sources */,
@@ -2383,6 +2430,7 @@
 				04C7AB6E219AA8810097AC93 /* XMPPvCardTempModule.m in Sources */,
 				04C7ABB2219AA8810097AC93 /* XMPPRoomLightMessageCoreDataStorageObject.m in Sources */,
 				04771A2321992EAC0048CBB1 /* MASLayoutConstraint.m in Sources */,
+				043A410E21A4FE4E00C5BA40 /* CXPMeViewController.m in Sources */,
 				04C7AB1E219AA8810097AC93 /* XMPPDeprecatedDigestAuthentication.m in Sources */,
 				04C7AB7F219AA8810097AC93 /* XMPPCapabilities.xcdatamodel in Sources */,
 				04C7AB49219AA8810097AC93 /* XMPPUserMemoryStorageObject.m in Sources */,
@@ -2588,7 +2636,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU4NY3S79J;
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "/Users/xiangjune/Desktop/工作文件/Demo/ChatXMPP/ChatXMPP/classes/Main/ChatXMPPPrefixHeader.pch";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChatXMPP/ChatXMPPPrefixHeader.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = ChatXMPP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2610,7 +2660,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MU4NY3S79J;
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "/Users/xiangjune/Desktop/工作文件/Demo/ChatXMPP/ChatXMPP/classes/Main/ChatXMPPPrefixHeader.pch";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChatXMPP/ChatXMPPPrefixHeader.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = ChatXMPP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
